@@ -585,6 +585,28 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "98cc8fbded0c607b7ba9dd60cd98df59af97e84d24e49c8557331cfc26d301ce"
 
 [[package]]
+name = "clia-rustls-mod"
+version = "0.23.4"
+dependencies = [
+ "aws-lc-rs",
+ "base64 0.22.0",
+ "bencher",
+ "env_logger",
+ "log",
+ "num-bigint",
+ "once_cell",
+ "ring",
+ "rustls-pemfile 2.1.1",
+ "rustls-pki-types",
+ "rustls-webpki 0.102.2",
+ "rustversion",
+ "subtle",
+ "tikv-jemallocator",
+ "webpki-roots 0.26.1",
+ "zeroize",
+]
+
+[[package]]
 name = "cmake"
 version = "0.1.50"
 source = "registry+https://github.com/rust-lang/crates.io-index"
